@@ -2,6 +2,9 @@ EXPORTS
    VxVirtualizationBegin            
    VxVirtualizationEnd               
 
+   VxTmaVirtualizationBegin            
+   VxTmaVirtualizationEnd               
+
    VxDualModeBegin
    VxDualModeEnd
 
@@ -15,3 +18,5 @@ EXPORTS
    VxCodeFlatteningEnd
 
    VxLinkEvent
+   VxLinkExtsBegin
+   VxLinkExtsEnd

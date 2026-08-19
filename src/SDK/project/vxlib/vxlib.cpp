@@ -15,6 +15,18 @@ void VxVirtualizationEnd() {
 //
 
 extern "C"
+void VxTmaVirtualizationBegin() {
+    return;
+}
+
+extern "C"
+void VxTmaVirtualizationEnd() {
+    return;
+}
+
+//
+
+extern "C"
 void VxDualModeBegin() {
     return;
 }
@@ -75,4 +87,14 @@ void __stdcall VxMutateEnd() {
 extern "C"
 void* VxLinkEvent(unsigned int id, void* buffer, void* sizeOfBuffer) {
     return 0;
+}
+
+extern "C"
+void VxLinkExtsBegin() {
+    return;
+}
+
+extern "C"
+void VxLinkExtsEnd() {
+    return;
 }
